@@ -1,0 +1,64 @@
+**********    Thu Apr 28 16:50:05 EDT 2011: PLACING LOG IN logs/SP-2011.MATH.log
+ XXX 
+**********    Running raw to phase 1 conversion
+Entering phase 1
+Entering raw
+Processing SP-2011.MATH.pdf
+Determining pagecount from SP-2011.MATH.pdf
+Extracting page 1 from SP-2011.MATH.pdf
+Processing 2011, SP semester, course 0680
+Extracting page 2 from SP-2011.MATH.pdf
+Processing 2011, SP semester, course 0681
+Extracting page 3 from SP-2011.MATH.pdf
+Processing 2011, SP semester, course 0682
+Extracting page 4 from SP-2011.MATH.pdf
+Processing 2011, SP semester, course 0687
+Extracting page 5 from SP-2011.MATH.pdf
+Processing 2011, SP semester, course 0688
+Extracting page 6 from SP-2011.MATH.pdf
+Processing 2011, SP semester, course 0689
+Extracting page 7 from SP-2011.MATH.pdf
+Processing 2011, SP semester, course 0690
+Extracting page 8 from SP-2011.MATH.pdf
+Processing 2011, SP semester, course 0691
+Extracting page 9 from SP-2011.MATH.pdf
+Processing 2011, SP semester, course 0702
+Extracting page 10 from SP-2011.MATH.pdf
+Processing 2011, SP semester, course 4935
+Extracting page 11 from SP-2011.MATH.pdf
+Processing 2011, SP semester, course 5786
+Extracting page 12 from SP-2011.MATH.pdf
+Processing 2011, SP semester, course 5829
+**********    Completed
+**********    Thu Apr 28 16:50:05 EDT 2011
+**********    Running phase1 to phase 2 conversion
+Processing 2011-SP-0680.txt... MATH100-02(0680) INT_BASIC_MATH_SK [Kalmus_M]
+Processing 2011-SP-0681.txt... MATH100-03(0680) INT_BASIC_MATH_SK [Kola_B]
+Processing 2011-SP-0682.txt... MATH100-01(0681) INT_BASIC_MATH_SK [Vanwagenen_L]
+Processing 2011-SP-0687.txt... MATH103-01(0682) MODERN_MATH_I [Olivo_J]
+Processing 2011-SP-0688.txt... MATH103-02(0687) MODERN_MATH_I [Islam_M]
+Processing 2011-SP-0689.txt... MATH103-03(0688) MODERN_MATH_I [Pina_J]
+Processing 2011-SP-0690.txt... MATH103-04(0689) MODERN_MATH_I [Olivo_J]
+Processing 2011-SP-0691.txt... MATH103-05(0690) MODERN_MATH_I [Pina_J]
+Processing 2011-SP-0702.txt... MATH103-301(0691) MODERN_MATH_I [Williams_A]
+Processing 2011-SP-4935.txt... MATH100-301(0702) INT_BASIC_MATH_SK [Williams_A]
+Processing 2011-SP-5786.txt... MATH103-50(4935) MODERN_MATH_I [Olivo_J]
+Processing 2011-SP-5829.txt... MATH103-51(5786) MODERN_MATH_I [Pina_J]
+**********    Thu Apr 28 16:50:06 EDT 2011
+**********    Running load-temp.sql, showing added rows:
+**********    Thu Apr 28 16:50:06 EDT 2011
+**********    Running load-course.sql, showing added rows:
+**********    Thu Apr 28 16:50:06 EDT 2011
+**********    Running load-student.sql, showing added rows:
+**********    Thu Apr 28 16:50:06 EDT 2011
+**********    Running load-prof.sql, showing added rows:
+**********    Thu Apr 28 16:50:06 EDT 2011
+**********    Running load-offering.sql, showing added rows:
+**********    Thu Apr 28 16:50:06 EDT 2011
+**********    Running load-registration.sql, showing added rows:
+**********    Thu Apr 28 16:50:06 EDT 2011
+**********    Moving raw/* to processed
+**********    Thu Apr 28 16:50:06 EDT 2011
+**********    Cleaning out phase1/*
+**********    Thu Apr 28 16:50:06 EDT 2011
+**********    Cleaning out phase2/*

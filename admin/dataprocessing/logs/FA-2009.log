@@ -1,0 +1,119 @@
+**********    Wed Feb 24 18:36:15 EST 2010
+**********    Running raw to phase 1 conversion
+Processing 2009 (FA)
+Extracting page 1 from FA-2009.pdf
+Extracting page 2 from FA-2009.pdf
+Extracting page 3 from FA-2009.pdf
+Extracting page 4 from FA-2009.pdf
+Extracting page 5 from FA-2009.pdf
+Extracting page 6 from FA-2009.pdf
+Extracting page 7 from FA-2009.pdf
+Extracting page 8 from FA-2009.pdf
+Extracting page 9 from FA-2009.pdf
+Extracting page 10 from FA-2009.pdf
+Extracting page 11 from FA-2009.pdf
+Extracting page 12 from FA-2009.pdf
+Extracting page 13 from FA-2009.pdf
+Extracting page 14 from FA-2009.pdf
+Extracting page 15 from FA-2009.pdf
+Extracting page 16 from FA-2009.pdf
+Extracting page 17 from FA-2009.pdf
+Extracting page 18 from FA-2009.pdf
+Extracting page 19 from FA-2009.pdf
+Extracting page 20 from FA-2009.pdf
+Extracting page 21 from FA-2009.pdf
+Extracting page 22 from FA-2009.pdf
+Extracting page 23 from FA-2009.pdf
+Extracting page 24 from FA-2009.pdf
+Extracting page 25 from FA-2009.pdf
+Extracting page 26 from FA-2009.pdf
+Extracting page 27 from FA-2009.pdf
+Extracting page 28 from FA-2009.pdf
+Extracting page 29 from FA-2009.pdf
+Extracting page 30 from FA-2009.pdf
+Extracting page 31 from FA-2009.pdf
+Extracting page 32 from FA-2009.pdf
+Extracting page 33 from FA-2009.pdf
+Extracting page 34 from FA-2009.pdf
+Extracting page 35 from FA-2009.pdf
+Extracting page 36 from FA-2009.pdf
+Extracting page 37 from FA-2009.pdf
+Extracting page 38 from FA-2009.pdf
+Extracting page 39 from FA-2009.pdf
+Extracting page 40 from FA-2009.pdf
+Extracting page 41 from FA-2009.pdf
+Extracting page 42 from FA-2009.pdf
+Extracting page 43 from FA-2009.pdf
+Extracting page 44 from FA-2009.pdf
+Extracting page 45 from FA-2009.pdf
+Extracting page 46 from FA-2009.pdf
+Extracting page 47 from FA-2009.pdf
+Extracting page 48 from FA-2009.pdf
+**********    Wed Feb 24 18:36:16 EST 2010
+**********    Running phase1 to phase 2 conversion
+Processing 2009-FA-0848.txt... MATH100-15(0848) INT_BASIC_MATH_SK [Jo_L]
+Processing 2009-FA-0849.txt... MATH100-02(0848) INT_BASIC_MATH_SK [Kola_B]
+Processing 2009-FA-0850.txt... MATH100-03(0849) INT_BASIC_MATH_SK [Shamuilova_R]
+Processing 2009-FA-0851.txt... MATH100-04(0850) INT_BASIC_MATH_SK [Kola_B]
+Processing 2009-FA-0852.txt... MATH100-05(0851) INT_BASIC_MATH_SK [Pollak_D]
+Processing 2009-FA-0853.txt... MATH100-07(0852) INT_BASIC_MATH_SK [Pollak_D]
+Processing 2009-FA-0855.txt... MATH100-13(0853) INT_BASIC_MATH_SK [Goubran_N]
+Processing 2009-FA-0856.txt... MATH100-LC013(0855) LC013_INT_BASIC_MATH_SK [Welz_G]
+Processing 2009-FA-0861.txt... MATH103-01(0856) MODERN_MATH_I [Peikes_M]
+Processing 2009-FA-0863.txt... MATH103-02(0861) MODERN_MATH_I [Peikes_M]
+Processing 2009-FA-0867.txt... MATH103-03(0863) MODERN_MATH_I [Hersh_H]
+Processing 2009-FA-0868.txt... MATH103-04(0867) MODERN_MATH_I [Shamuilova_R]
+Processing 2009-FA-0870.txt... MATH103-05(0868) MODERN_MATH_I [Shamuilova_R]
+Processing 2009-FA-0871.txt... MATH103-06(0870) MODERN_MATH_I [Martinez_D]
+Processing 2009-FA-0872.txt... MATH103-07(0871) MODERN_MATH_I [Aronoff_R]
+Processing 2009-FA-0874.txt... MATH103-08(0872) MODERN_MATH_I [Ben_Zid_M]
+Processing 2009-FA-0875.txt... MATH103-09(0874) MODERN_MATH_I [Ben_Zid_M]
+Processing 2009-FA-0876.txt... MATH103-301(0875) MODERN_MATH_I [LAM_W]
+Processing 2009-FA-1895.txt... MATH100-08(0876) INT_BASIC_MATH_SK [Farraj_R]
+Processing 2009-FA-1896.txt... MATH100-10(1895) INT_BASIC_MATH_SK [Farraj_R]
+Processing 2009-FA-2011.txt... MATH100-11(1896) INT_BASIC_MATH_SK [Gilde_E]
+Processing 2009-FA-2012.txt... MATH100-12(2011) INT_BASIC_MATH_SK [Pannizzo_F]
+Processing 2009-FA-2013.txt... MATH100-01(2012) INT_BASIC_MATH_SK [Baruch_S]
+Processing 2009-FA-2015.txt... MATH103-10(2013) MODERN_MATH_I [Polanco_E]
+Processing 2009-FA-2016.txt... MATH103-11(2015) MODERN_MATH_I [Green_E]
+Processing 2009-FA-2018.txt... MATH103-13(2016) MODERN_MATH_I [Green_E]
+Processing 2009-FA-2020.txt... MATH103-12(2018) MODERN_MATH_I [Green_E]
+Processing 2009-FA-2273.txt... MATH191-01(2020) INTENSIVE_MATH [Stern_L]
+Processing 2009-FA-2274.txt... MATH191-02(2273) INTENSIVE_MATH [Kola_B]
+Processing 2009-FA-3479.txt... MATH100-16(2274) INT_BASIC_MATH_SK [SEAMAN_C]
+Processing 2009-FA-3480.txt... MATH100-17(3479) INT_BASIC_MATH_SK [Mcardle_H]
+Processing 2009-FA-3481.txt... MATH100-18(3480) INT_BASIC_MATH_SK [Nartey_L]
+Processing 2009-FA-3482.txt... MATH103-14(3481) MODERN_MATH_I [Binns_K]
+Processing 2009-FA-3567.txt... MATH100-LC012(3482) LC012_INT_BASIC_MATH_SK [Welz_G]
+Processing 2009-FA-3786.txt... MATH100-50(3567) INT_BASIC_MATH_SK [CHEN_T]
+Processing 2009-FA-3787.txt... MATH103-50(3786) MODERN_MATH_I [Aronoff_R]
+Processing 2009-FA-3801.txt... MATH100-51(3787) INT_BASIC_MATH_SK [HAM_E]
+Processing 2009-FA-3802.txt... MATH103-51(3801) MODERN_MATH_I [Pannizzo_F]
+Processing 2009-FA-3816.txt... MATH100-52(3802) INT_BASIC_MATH_SK [Goubran_N]
+Processing 2009-FA-3818.txt... MATH100-53(3816) INT_BASIC_MATH_SK [Gilde_E]
+Processing 2009-FA-3819.txt... MATH103-52(3818) MODERN_MATH_I [Mcardle_H]
+Processing 2009-FA-3848.txt... MATH100-54(3819) INT_BASIC_MATH_SK [KALMUS_M]
+Processing 2009-FA-3849.txt... MATH100-55(3848) INT_BASIC_MATH_SK [CHEN_T]
+Processing 2009-FA-3856.txt... MATH100-56(3849) INT_BASIC_MATH_SK [CATALINOTTO_J]
+Processing 2009-FA-3857.txt... MATH103-53(3856) MODERN_MATH_I [Green_E]
+Processing 2009-FA-3864.txt... MATH100-57(3857) INT_BASIC_MATH_SK [KALMUS_M]
+Processing 2009-FA-3865.txt... MATH103-54(3864) MODERN_MATH_I [Ben_Zid_M]
+Processing 2009-FA-3881.txt... MATH103-55(3865) MODERN_MATH_I [HAM_E]
+**********    Wed Feb 24 18:36:18 EST 2010
+**********    Running load-temp.sql, showing added rows:
+**********    Wed Feb 24 18:36:18 EST 2010
+**********    Running load-course.sql, showing added rows:
+**********    Wed Feb 24 18:36:18 EST 2010
+**********    Running load-student.sql, showing added rows:
+**********    Wed Feb 24 18:36:18 EST 2010
+**********    Running load-prof.sql, showing added rows:
+**********    Wed Feb 24 18:36:18 EST 2010
+**********    Running load-offering.sql, showing added rows:
+**********    Wed Feb 24 18:36:18 EST 2010
+**********    Running load-registration.sql, showing added rows:
+**********    Wed Feb 24 18:36:18 EST 2010
+**********    Moving raw/* to processed
+**********    Wed Feb 24 18:36:18 EST 2010
+**********    Cleaning out phase1/*
+**********    Wed Feb 24 18:36:18 EST 2010
+**********    Cleaning out phase2/*

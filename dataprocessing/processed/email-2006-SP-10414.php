@@ -1,0 +1,18 @@
+#!/usr/bin/php -q
+<?
+include("/var/www/html/casper/modules/phpmailer/email.php");
+
+
+
+$email = "";
+$name = "Chunhui Meng";
+$subject = "ADMIN 104 - MODERN_MATH_2 (2006 SP)";
+$body = "<table cellspacing='3' cellpadding='3' border='5' width='250' align='center'><caption>---Course Information---</caption><tr><td align='center'>Course </td> <td align='center'>104</td></tr><tr><td align='center'>Semester</td> <td align='center'>SP</td></tr><tr><td align='center'>Section</td> <td align='center'>14</td></tr><tr><td align='center'>Year</td> <td align='center'>2006</td></tr><tr><td align='center'>Prof.</td> <td align='center'>PAIDOUSSIS_F</td></tr></table><br><table cellspacing='3' cellpadding='3' border='5' width='600' align='center'><tr><td>5558</td><td>ADAMS, BORYONAH</td><td>Passed everything.</td></tr><tr><td>7682</td><td>ARZU, JESSICA</td><td>Passed everything.</td></tr><tr><td>9919</td><td>BASTIDAS, LUISA</td><td>Passed everything.</td></tr><tr><td>5374</td><td>BIENAIME, MAGALA</td><td>Passed everything.</td></tr><tr><td>2992</td><td>BLACKMAN, ANTOINETTE</td><td>Passed everything.</td></tr><tr><td>8547</td><td>BLACKMAN, JUANITA</td><td>Passed everything.</td></tr><tr><td>4861</td><td>BOOKER, SHAHIDAH</td><td>Passed everything.</td></tr><tr><td>1773</td><td>CAPLLONCH, VANESSA</td><td>Passed everything.</td></tr><tr><td>3949</td><td>CHARLES, JUDITH</td><td>Passed everything.</td></tr><tr><td>3867</td><td>CHUMACERO, GENE</td><td>Passed everything.</td></tr><tr><td>0369</td><td>DEAN, KALYN</td><td>Passed everything.</td></tr><tr><td>1403</td><td>DIAZ, JASMINE</td><td>Passed everything.</td></tr><tr><td>9642</td><td>EDWARDS, DARREN</td><td>Passed everything.</td></tr><tr><td>2995</td><td>FELDMAN, DANIEL</td><td>Passed everything.</td></tr><tr><td>4935</td><td>GARCIA, MILENA</td><td>Passed everything.</td></tr><tr><td>9253</td><td>HERRERO, JOHANNA</td><td>Passed everything.</td></tr><tr><td>6869</td><td>HOLGUIN, JUDY</td><td>Passed everything.</td></tr><tr><td>9742</td><td>HURST, DIANA</td><td>Passed everything.</td></tr><tr><td>6571</td><td>INCEOGLU, LEYLA</td><td>Passed everything.</td></tr><tr><td>3585</td><td>JIMENEZ, BENITO</td><td>Passed everything.</td></tr><tr><td>4818</td><td>LEE, SHANEEK</td><td>Passed everything.</td></tr><tr><td>4830</td><td>LEGUILLOW, ANDREW</td><td>Passed everything.</td></tr><tr><td>3367</td><td>LINDO, MALAYCA</td><td>Passed everything.</td></tr><tr><td>9919</td><td>MARTINEZ, IVELIZ</td><td>Passed everything.</td></tr><tr><td>2759</td><td>MISHOE, TIFFANY</td><td>Passed everything.</td></tr><tr><td>5293</td><td>MOLINA, CATHERINE</td><td>Passed everything.</td></tr><tr><td>1072</td><td>MURRAY, MYRELLA</td><td>Passed everything.</td></tr><tr><td>8852</td><td>ORTIZ, AWILDA</td><td>Passed everything.</td></tr><tr><td>0826</td><td>PTASZYNSKA, BEATA</td><td>Passed everything.</td></tr><tr><td>3388</td><td>RAYMOND, ABEGAIL</td><td>Passed everything.</td></tr><tr><td>5820</td><td>RODRIGUEZ, JULIANA</td><td>Passed everything.</td></tr><tr><td>0670</td><td>SHIWDIN, DAVE</td><td>Passed everything.</td></tr><tr><td>4254</td><td>STOKES, SHORELL</td><td>Passed everything.</td></tr><tr><td>8035</td><td>VARGAS, HAROLD</td><td>Passed everything.</td></tr><tr><td>4892</td><td>WIENER, JOSHUA</td><td>Passed everything.</td></tr><caption>---Tutoring Required(By Student)---</caption></table><br><table cellspacing='3' cellpadding='3' border='5' width='600' align='center'><caption>---Tutoring Required(By Topic)---</caption></table><br>";
+$altbody = "Please open this important email in an HTML-compatible browser!";
+send_email($email, $name, $subject, $body, $altbody);
+sleep(10);
+
+
+
+
+?>

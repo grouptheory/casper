@@ -1,0 +1,278 @@
+
+
+<!-- This comment keeps IE6/7 in the reliable quirks mode -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+
+<title>Scrollable Table with Fixed Header, repeat print header and footer</title>
+
+<!-- <meta name="keywords" content="fixed table header; non-scroll header; fixed footer; freeze header; CSS tips; print repeating headers; print repeating footers"> -->
+
+<!-- <link rel="stylesheet" href="basic.css" type="text/css"> -->
+
+<style type="text/css">
+
+div.tableContainer {
+	width: 50%;		/* table width will be 99% of this*/
+	height: 295px; 	/* must be greater than tbody*/
+	overflow: auto;
+	margin: 0 auto;
+	}
+
+table {
+	width: 99%;		/*100% of container produces horiz. scroll in Mozilla*/
+	border: none;
+	background-color: #f7f7f7;
+	}
+	
+table>tbody	{  /* child selector syntax which IE6 and older do not support*/
+	overflow: auto; 
+	height: 250px;
+	overflow-x: hidden;
+	}
+
+	
+thead tr	{
+	position:relative; 
+	top: expression(offsetParent.scrollTop); /*IE5+ only*/
+	}
+	
+thead td, thead th {
+	text-align: center;
+	font-size: 14px; 
+	background-color: oldlace;
+	color: steelblue;
+	font-weight: bold;
+	border-top: solid 1px #d8d8d8;
+	}	
+
+td	{
+	color: #000;
+	padding-right: 2px;
+	font-size: 12px;
+	text-align: right;
+	border-bottom: solid 1px #d8d8d8;
+	border-left: solid 1px #d8d8d8;
+	}
+	
+table tfoot tr { /*idea of Renato Cherullo to help IE*/
+      position: relative; 
+      overflow-x: hidden;
+      top: expression(parentNode.parentNode.offsetHeight >= 
+	  offsetParent.offsetHeight ? 0 - parentNode.parentNode.offsetHeight + offsetParent.offsetHeight + offsetParent.scrollTop : 0);
+      }
+
+
+tfoot td	{
+	text-align: center;
+	font-size: 11px;
+	font-weight: bold;
+	background-color: papayawhip;
+	color: steelblue;
+	border-top: solid 1px slategray;
+	}
+
+td:last-child {padding-right: 20px;} /*prevent Mozilla scrollbar from hiding cell content*/
+
+
+</style>
+
+
+
+<!-- print style sheet -->
+<style type="text/css" media="print">
+div.tableContainer {overflow: visible;	}
+table>tbody	{overflow: visible; }
+td {height: 14pt;} /*adds control for test purposes*/
+thead td	{font-size: 11pt;	}
+tfoot td	{
+	text-align: center;
+	font-size: 9pt;
+	border-bottom: solid 1px slategray;
+	}
+	
+thead	{display: table-header-group;	}
+tfoot	{display: table-footer-group;	}
+thead th, thead td	{position: static; } 
+
+thead tr	{position: static; } /*prevent problem if print after scrolling table*/ 
+table tfoot tr {     position: static;    }
+
+
+</style>
+
+</head>
+
+<body>
+
+<div id="container">
+
+<h2>Scrollable Table with Fixed Header</h2>
+
+
+
+
+<br><br>
+
+<div>
+<div class="tableContainer">
+  <table cellspacing="0">
+   <thead>
+      <tr> 
+        <td width="30%">Student Name</td>
+        <td width="10%">Topic1</td>
+
+        <td width="10%">Topic2</td>
+        <td width="10%">Topic3</td>
+      </tr>
+      </thead>
+   
+      <tr> 
+       
+        <td>Chunhui Meng</td>
+
+	<td><input type="checkbox" name="checkbox1"></td>
+	<td><input type="checkbox" name="checkbox2"></td>
+	<td><input type="checkbox" name="checkbox3"></td>
+	
+       </tr>
+    
+      <tr> 
+        <td>John Callanta</td>
+	<td><input type="checkbox" name="checkbox1"></td>
+	<td><input type="checkbox" name="checkbox2"></td>
+	<td><input type="checkbox" name="checkbox3"></td>
+      </tr>
+
+      <tr> 
+        <td>WFLA</td>
+        <td>09/11/2002</td>
+        <td>Submitted</td>
+        <td>1</td>
+      </tr>
+      <tr> 
+        <td>WTSP</td>
+
+        <td>09/15/2002</td>
+        <td>In-Progress</td>
+        <td>10</td>
+      </tr>
+      <tr> 
+        <td>WROC</td>
+        <td>10/11/2002</td>
+
+        <td>Submitted</td>
+        <td>12</td>
+      </tr>
+      <tr> 
+        <td>WPPP</td>
+        <td>09/16/2002</td>
+        <td>In-Progress</td>
+
+        <td>0</td>
+      </tr>
+      <tr> 
+        <td>WRRR</td>
+        <td>09/06/2002</td>
+        <td>Submitted</td>
+        <td>5</td>
+
+      </tr>
+      <tr> 
+        <td>WTTT</td>
+        <td>09/21/2002</td>
+        <td>In-Progress</td>
+        <td>0</td>
+      </tr>
+
+      <tr> 
+        <td>W000</td>
+        <td>11/11/2002</td>
+        <td>Submitted</td>
+        <td>7</td>
+      </tr>
+      <tr> 
+        <td>KABC</td>
+
+        <td>10/01/2002</td>
+        <td>Submitted</td>
+        <td>10</td>
+      </tr>
+      <tr> 
+        <td>KCBS</td>
+        <td>10/18/2002</td>
+
+        <td>Lockdown</td>
+        <td>2</td>
+      </tr>
+      <tr> 
+        <td>WFLA</td>
+        <td>10/18/2002</td>
+        <td>Submitted</td>
+
+        <td>1</td>
+      </tr>
+      <tr> 
+        <td>WTSP</td>
+        <td>10/19/2002</td>
+        <td>In-Progress</td>
+        <td>0</td>
+
+      </tr>
+      <tr> 
+        <td>WROC</td>
+        <td>07/18/2002</td>
+        <td>Submitted</td>
+        <td>2</td>
+      </tr>
+
+      <tr> 
+        <td>WPPP</td>
+        <td>10/28/2002</td>
+        <td>In-Progress</td>
+        <td>10</td>
+      </tr>
+      <tr> 
+        <td>WRRR</td>
+
+        <td>10/28/2002</td>
+        <td>Submitted</td>
+        <td>5</td>
+      </tr>
+      <tr> 
+        <td>WTTT</td>
+        <td>10/08/2002</td>
+
+        <td>In-Progress</td>
+        <td>0</td>
+      </tr>
+      <tr> 
+        <td>WIL0</td>
+        <td>10/18/2001</td>
+        <td>Submitted</td>
+
+        <td>7</td>
+      </tr>
+      <tr> 
+        <td>KABC</td>
+        <td>04/18/2002</td>
+        <td>Submitted</td>
+        <td>0</td>
+
+      </tr>
+  
+       
+   
+  </table>
+
+</div>
+
+</div>
+
+
+
+
+</body>
+</html>
+

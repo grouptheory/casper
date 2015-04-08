@@ -1,0 +1,18 @@
+#!/usr/bin/php -q
+<?
+include("/var/www/html/casper/modules/phpmailer/email.php");
+
+
+
+$email = "yuxiabuting@hotmail.com";
+$name = "Chunhui Meng";
+$subject = "ADMIN 104 - MODERN_MATH_2 (2009 SP)";
+$body = "<table cellspacing='3' cellpadding='3' border='5' width='250' align='center'><caption>---Course Information---</caption><tr><td align='center'>Course </td> <td align='center'>104</td></tr><tr><td align='center'>Semester</td> <td align='center'>SP</td></tr><tr><td align='center'>Section</td> <td align='center'>15</td></tr><tr><td align='center'>Year</td> <td align='center'>2009</td></tr><tr><td align='center'>Prof.</td> <td align='center'>NARTEY_L</td></tr></table><br><table cellspacing='3' cellpadding='3' border='5' width='600' align='center'><tr><td>3457</td><td>BLAND, ANDREA</td><td>104-topic-2</td></tr><tr><td>7835</td><td>BUITRAGO, JEANNETTE</td><td>Absent on the assessment test.</td></tr><tr><td>2728</td><td>CAIN, BIANCA</td><td>Absent on the assessment test.</td></tr><tr><td>4327</td><td>COMO, ANDREW</td><td>104-topic-3</td></tr><tr><td>8063</td><td>CRUMPLER, ALEXANDRA</td><td>104-topic-1</td></tr><tr><td>5475</td><td>DIAZ, DIANA</td><td>104-topic-2</td></tr><tr><td>3261</td><td>FRIAS, CHRISTELIS</td><td>Absent on the assessment test.</td></tr><tr><td>6649</td><td>GALARZA, STEPHANIE</td><td>104-topic-4</td></tr><tr><td>8596</td><td>GONZALEZ, CHRISTOPHER</td><td>104-topic-5</td></tr><tr><td>6633</td><td>GONZALEZ, JOSE</td><td>Absent on the assessment test.</td></tr><tr><td>5644</td><td>JONES, TRAVIS</td><td>104-topic-1</td></tr><tr><td>6497</td><td>LEGRAND, SHAWANDA</td><td>104-topic-3</td></tr><tr><td>2606</td><td>MARADIAGA, RAUL</td><td>104-topic-3</td></tr><tr><td>6205</td><td>MCCALLUM, SOYONA</td><td>Absent on the assessment test.</td></tr><tr><td>1947</td><td>MORAIS, MATHEW</td><td>Absent on the assessment test.</td></tr><tr><td>5440</td><td>NDIAYE, AISSATOU</td><td>Absent on the assessment test.</td></tr><tr><td>0196</td><td>PEREZ, CRYSTAL</td><td>104-topic-3</td></tr><tr><td>8545</td><td>REYNOSO, HELINETH</td><td>104-topic-4</td></tr><tr><td>5085</td><td>RODRIGUEZ, JORGE</td><td>104-topic-3</td></tr><tr><td>1532</td><td>SANCHEZ, LILLAN</td><td>Absent on the assessment test.</td></tr><tr><td>5184</td><td>SIERRA, GABRIELA</td><td>Absent on the assessment test.</td></tr><tr><td>5714</td><td>SPRINGER, CHARISMA</td><td>104-topic-4</td></tr><tr><td>0217</td><td>TATE_JR, WILLIAM</td><td>104-topic-2</td></tr><tr><td>1608</td><td>VILLA, ANDRES</td><td>Absent on the assessment test.</td></tr><tr><td>5638</td><td>WILLIAMS, LAKEISHA</td><td>Absent on the assessment test.</td></tr><caption>---Tutoring Required(By Student)---</caption></table><br><table cellspacing='3' cellpadding='3' border='5' width='600' align='center'><tr><td> 104-topic-1 </td><td>(CRUMPLER, ALEXANDRA (8063))<BR>(JONES, TRAVIS (5644))Absent on the assessment test.</td></tr><tr><td> 104-topic-2 </td><td>(BLAND, ANDREA (3457))<BR>(DIAZ, DIANA (5475))<BR>(TATE_JR, WILLIAM (0217))Absent on the assessment test.</td></tr><tr><td> 104-topic-3 </td><td>(COMO, ANDREW (4327))<BR>(LEGRAND, SHAWANDA (6497))<BR>(MARADIAGA, RAUL (2606))<BR>(PEREZ, CRYSTAL (0196))<BR>(RODRIGUEZ, JORGE (5085))Absent on the assessment test.</td></tr><tr><td> 104-topic-4 </td><td>(GALARZA, STEPHANIE (6649))<BR>(REYNOSO, HELINETH (8545))<BR>(SPRINGER, CHARISMA (5714))Absent on the assessment test.</td></tr><tr><td> 104-topic-5 </td><td>(GONZALEZ, CHRISTOPHER (8596))Absent on the assessment test.</td></tr><caption>---Tutoring Required(By Topic)---</caption></table><br>";
+$altbody = "Please open this important email in an HTML-compatible browser!";
+send_email($email, $name, $subject, $body, $altbody);
+sleep(10);
+
+
+
+
+?>

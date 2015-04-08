@@ -1,0 +1,18 @@
+#!/usr/bin/php -q
+<?
+include("/var/www/html/casper/modules/phpmailer/email.php");
+
+
+
+$email = "yuxiabuting@hotmail.com";
+$name = "Chunhui Meng";
+$subject = "ADMIN 105 - MODERN_MATH_3 (2009 SP)";
+$body = "<table cellspacing='3' cellpadding='3' border='5' width='250' align='center'><caption>---Course Information---</caption><tr><td align='center'>Course </td> <td align='center'>105</td></tr><tr><td align='center'>Semester</td> <td align='center'>SP</td></tr><tr><td align='center'>Section</td> <td align='center'>19</td></tr><tr><td align='center'>Year</td> <td align='center'>2009</td></tr><tr><td align='center'>Prof.</td> <td align='center'>JOHNSON_HUNTER</td></tr></table><br><table cellspacing='3' cellpadding='3' border='5' width='600' align='center'><tr><td>8174</td><td>DILJOHN, AMRITTA</td><td>105-topic-1<BR>105-topic-2<BR>105-topic-3<BR>105-topic-4<BR>105-topic-5</td></tr><tr><td>4033</td><td>GILLOT, DOROTHY</td><td>105-topic-1<BR>105-topic-2<BR>105-topic-3<BR>105-topic-4<BR>105-topic-5</td></tr><tr><td>4567</td><td>LUCAS, CASSANDRA</td><td>105-topic-1<BR>105-topic-2<BR>105-topic-3<BR>105-topic-4<BR>105-topic-5</td></tr><tr><td>8194</td><td>MORELLO, NICOLETTE</td><td>105-topic-2<BR>105-topic-3<BR>105-topic-5</td></tr><tr><td>0764</td><td>PIMENTEL, SUSYBEL</td><td>Absent on the assessment test.</td></tr><tr><td>3953</td><td>PLANK, ANDREW</td><td>105-topic-1<BR>105-topic-2<BR>105-topic-3<BR>105-topic-4<BR>105-topic-5</td></tr><tr><td>7851</td><td>RODRIGUEZ, ANTHONY</td><td>Absent on the assessment test.</td></tr><tr><td>1130</td><td>TIERI, IMMANUEL</td><td>Absent on the assessment test.</td></tr><tr><td>7562</td><td>TIMMONS, JENNIFER</td><td>105-topic-1<BR>105-topic-2<BR>105-topic-3<BR>105-topic-4<BR>105-topic-5</td></tr><tr><td>4793</td><td>VARELA, OSCAR</td><td>105-topic-1<BR>105-topic-2<BR>105-topic-3<BR>105-topic-4<BR>105-topic-5</td></tr><tr><td>7606</td><td>VAZQUEZ, JUDITH</td><td>105-topic-1<BR>105-topic-2<BR>105-topic-3<BR>105-topic-4<BR>105-topic-5</td></tr><caption>---Tutoring Required(By Student)---</caption></table><br><table cellspacing='3' cellpadding='3' border='5' width='600' align='center'><tr><td> 105-topic-1 </td><td>(DILJOHN, AMRITTA (8174))<BR>(GILLOT, DOROTHY (4033))<BR>(LUCAS, CASSANDRA (4567))<BR>(PLANK, ANDREW (3953))<BR>(TIMMONS, JENNIFER (7562))<BR>(VARELA, OSCAR (4793))<BR>(VAZQUEZ, JUDITH (7606))</td></tr><tr><td> 105-topic-2 </td><td>(DILJOHN, AMRITTA (8174))<BR>(GILLOT, DOROTHY (4033))<BR>(LUCAS, CASSANDRA (4567))<BR>(MORELLO, NICOLETTE (8194))<BR>(PLANK, ANDREW (3953))<BR>(TIMMONS, JENNIFER (7562))<BR>(VARELA, OSCAR (4793))<BR>(VAZQUEZ, JUDITH (7606))</td></tr><tr><td> 105-topic-3 </td><td>(DILJOHN, AMRITTA (8174))<BR>(GILLOT, DOROTHY (4033))<BR>(LUCAS, CASSANDRA (4567))<BR>(MORELLO, NICOLETTE (8194))<BR>(PLANK, ANDREW (3953))<BR>(TIMMONS, JENNIFER (7562))<BR>(VARELA, OSCAR (4793))<BR>(VAZQUEZ, JUDITH (7606))</td></tr><tr><td> 105-topic-4 </td><td>(DILJOHN, AMRITTA (8174))<BR>(GILLOT, DOROTHY (4033))<BR>(LUCAS, CASSANDRA (4567))<BR>(PLANK, ANDREW (3953))<BR>(TIMMONS, JENNIFER (7562))<BR>(VARELA, OSCAR (4793))<BR>(VAZQUEZ, JUDITH (7606))</td></tr><tr><td> 105-topic-5 </td><td>(DILJOHN, AMRITTA (8174))<BR>(GILLOT, DOROTHY (4033))<BR>(LUCAS, CASSANDRA (4567))<BR>(MORELLO, NICOLETTE (8194))<BR>(PLANK, ANDREW (3953))<BR>(TIMMONS, JENNIFER (7562))<BR>(VARELA, OSCAR (4793))<BR>(VAZQUEZ, JUDITH (7606))</td></tr><caption>---Tutoring Required(By Topic)---</caption></table><br>";
+$altbody = "Please open this important email in an HTML-compatible browser!";
+send_email($email, $name, $subject, $body, $altbody);
+sleep(10);
+
+
+
+
+?>

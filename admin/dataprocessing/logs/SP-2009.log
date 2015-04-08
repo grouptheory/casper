@@ -1,0 +1,115 @@
+**********    Mon Jan 26 10:38:49 EST 2009
+**********    Running raw to phase 1 conversion
+Processing 100 (100.pdf)
+Extracting page 1 from 100.pdf
+Processing 272 (272.pdf)
+Extracting page 1 from 272.pdf
+Extracting page 2 from 272.pdf
+Processing 2009 (SP)
+Extracting page 1 from SP-2009.pdf
+Extracting page 2 from SP-2009.pdf
+Extracting page 3 from SP-2009.pdf
+Extracting page 4 from SP-2009.pdf
+Extracting page 5 from SP-2009.pdf
+Extracting page 6 from SP-2009.pdf
+Extracting page 7 from SP-2009.pdf
+Extracting page 8 from SP-2009.pdf
+Extracting page 9 from SP-2009.pdf
+Extracting page 10 from SP-2009.pdf
+Extracting page 11 from SP-2009.pdf
+Extracting page 12 from SP-2009.pdf
+Extracting page 13 from SP-2009.pdf
+Extracting page 14 from SP-2009.pdf
+Extracting page 15 from SP-2009.pdf
+Extracting page 16 from SP-2009.pdf
+Extracting page 17 from SP-2009.pdf
+Extracting page 18 from SP-2009.pdf
+Extracting page 19 from SP-2009.pdf
+Extracting page 20 from SP-2009.pdf
+Extracting page 21 from SP-2009.pdf
+Extracting page 22 from SP-2009.pdf
+Extracting page 23 from SP-2009.pdf
+Extracting page 24 from SP-2009.pdf
+Extracting page 25 from SP-2009.pdf
+Extracting page 26 from SP-2009.pdf
+Extracting page 27 from SP-2009.pdf
+Extracting page 28 from SP-2009.pdf
+Extracting page 29 from SP-2009.pdf
+Extracting page 30 from SP-2009.pdf
+Extracting page 31 from SP-2009.pdf
+Extracting page 32 from SP-2009.pdf
+Extracting page 33 from SP-2009.pdf
+Extracting page 34 from SP-2009.pdf
+Extracting page 35 from SP-2009.pdf
+Extracting page 36 from SP-2009.pdf
+Extracting page 37 from SP-2009.pdf
+Extracting page 38 from SP-2009.pdf
+Extracting page 39 from SP-2009.pdf
+Extracting page 40 from SP-2009.pdf
+Extracting page 41 from SP-2009.pdf
+Processing latex (latex.pdf)
+Extracting page 1 from latex.pdf
+**********    Mon Jan 26 10:38:50 EST 2009
+**********    Running phase1 to phase 2 conversion
+Processing 100-100.pdf-.txt... -()  []
+Processing 2009-SP-0963.txt... MATH100-02() INT_BASIC_MATH_SK [SHAMUILOVA_RITA]
+Processing 2009-SP-0964.txt... MATH100-03(0963) INT_BASIC_MATH_SK [SHAMUILOVA_RITA]
+Processing 2009-SP-0965.txt... MATH100-04(0964) INT_BASIC_MATH_SK [KOLA_BHAVANI]
+Processing 2009-SP-0966.txt... MATH100-05(0965) INT_BASIC_MATH_SK [SHAMUILOVA_RITA]
+Processing 2009-SP-0967.txt... MATH100-06(0966) INT_BASIC_MATH_SK [ADEPO_EMMANUEL]
+Processing 2009-SP-0968.txt... MATH100-07(0967) INT_BASIC_MATH_SK [WELZ_G]
+Processing 2009-SP-0969.txt... MATH100-08(0968) INT_BASIC_MATH_SK [GREEN_EDWARD]
+Processing 2009-SP-0971.txt... MATH100-10(0969) INT_BASIC_MATH_SK [GREEN_EDWARD]
+Processing 2009-SP-0972.txt... MATH103-01(0971) MODERN_MATH_I [STERN_LISETTE]
+Processing 2009-SP-0973.txt... MATH103-02(0972) MODERN_MATH_I [STERN_LISETTE]
+Processing 2009-SP-0974.txt... MATH103-03(0973) MODERN_MATH_I [KOLA_BHAVANI]
+Processing 2009-SP-0975.txt... MATH103-04(0974) MODERN_MATH_I [PAIDOUSSIS_F]
+Processing 2009-SP-0976.txt... MATH103-05(0975) MODERN_MATH_I [HERSH_H]
+Processing 2009-SP-0978.txt... MATH103-07(0976) MODERN_MATH_I [KOLA_BHAVANI]
+Processing 2009-SP-0979.txt... MATH103-08(0978) MODERN_MATH_I [BINNS_KENNETH]
+Processing 2009-SP-0980.txt... MATH103-09(0979) MODERN_MATH_I [SHAMUILOVA_RITA]
+Processing 2009-SP-0981.txt... MATH103-10(0980) MODERN_MATH_I [NARTEY_L]
+Processing 2009-SP-0982.txt... MATH103-11(0981) MODERN_MATH_I [BINNS_KENNETH]
+Processing 2009-SP-0983.txt... MATH103-12(0982) MODERN_MATH_I [GILDE_E]
+Processing 2009-SP-0984.txt... MATH103-13(0983) MODERN_MATH_I [TOPLAN_S]
+Processing 2009-SP-0985.txt... MATH103-14(0984) MODERN_MATH_I [VAN_WAGENEN_LINDSEY]
+Processing 2009-SP-0986.txt... MATH103-15(0985) MODERN_MATH_I [WELZ_G]
+Processing 2009-SP-0987.txt... MATH103-16(0986) MODERN_MATH_I [ANDREU_E]
+Processing 2009-SP-0988.txt... MATH103-17(0987) MODERN_MATH_I [POLANCO_JUANA]
+Processing 2009-SP-0989.txt... MATH103-18(0988) MODERN_MATH_I [BEN_ZID_MOHAMEDNEJIB]
+Processing 2009-SP-0990.txt... MATH103-19(0989) MODERN_MATH_I [GREEN_EDWARD]
+Processing 2009-SP-0991.txt... MATH103-301(0990) MODERN_MATH_I [WILLIAMS_A]
+Processing 2009-SP-2062.txt... MATH100-11(0991) INT_BASIC_MATH_SK [KOLA_BHAVANI]
+Processing 2009-SP-2063.txt... MATH103-20(2062) MODERN_MATH_I [KOLA_BHAVANI]
+Processing 2009-SP-2400.txt... MATH100-16(2063) INT_BASIC_MATH_SK [ADEPO_EMMANUEL]
+Processing 2009-SP-2404.txt... MATH103-21(2400) MODERN_MATH_I [BEN_ZID_MOHAMEDNEJIB]
+Processing 2009-SP-2405.txt... MATH100-12(2404) INT_BASIC_MATH_SK [SHAMUILOVA_RITA]
+Processing 2009-SP-5007.txt... MATH100-15(2405) INT_BASIC_MATH_SK [ARONOFF_ROBERTA]
+Processing 2009-SP-5010.txt... MATH100-18(5007) INT_BASIC_MATH_SK [POLANCO_JUANA]
+Processing 2009-SP-5032.txt... MATH103-28(5010) MODERN_MATH_I [VAN_WAGENEN_LINDSEY]
+Processing 2009-SP-5033.txt... MATH103-24(5032) MODERN_MATH_I [POLANCO_JUANA]
+Processing 2009-SP-5034.txt... MATH103-27(5033) MODERN_MATH_I [YUSSIF_KAMIL]
+Processing 2009-SP-5035.txt... MATH103-26(5034) MODERN_MATH_I [SOOKNANAN_PHILIP]
+Processing 2009-SP-5036.txt... MATH103-23(5035) MODERN_MATH_I [BEN_ZID_MOHAMEDNEJIB]
+Processing 2009-SP-5037.txt... MATH103-22(5036) MODERN_MATH_I [MELHEM_AHMAD]
+Processing 2009-SP-5313.txt... MATH191-01(5037) INTENSIVE_MATH [STERN_LISETTE]
+Processing 272-272.pdf-.txt... -(5313)  []
+Processing latex-latex.pdf-.txt... -()  []
+**********    Mon Jan 26 10:38:51 EST 2009
+**********    Running load-temp.sql, showing added rows:
+**********    Mon Jan 26 10:38:51 EST 2009
+**********    Running load-course.sql, showing added rows:
+**********    Mon Jan 26 10:38:51 EST 2009
+**********    Running load-student.sql, showing added rows:
+**********    Mon Jan 26 10:38:51 EST 2009
+**********    Running load-prof.sql, showing added rows:
+**********    Mon Jan 26 10:38:51 EST 2009
+**********    Running load-offering.sql, showing added rows:
+**********    Mon Jan 26 10:38:51 EST 2009
+**********    Running load-registration.sql, showing added rows:
+**********    Mon Jan 26 10:38:51 EST 2009
+**********    Moving raw/* to processed
+**********    Mon Jan 26 10:38:51 EST 2009
+**********    Cleaning out phase1/*
+**********    Mon Jan 26 10:38:51 EST 2009
+**********    Cleaning out phase2/*

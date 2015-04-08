@@ -1,0 +1,22 @@
+**********    Wed Aug 26 20:08:45 EDT 2009
+**********    Running raw to phase 1 conversion
+**********    Wed Aug 26 20:08:45 EDT 2009
+**********    Running phase1 to phase 2 conversion
+**********    Wed Aug 26 20:08:45 EDT 2009
+**********    Running load-temp.sql, showing added rows:
+**********    Wed Aug 26 20:08:45 EDT 2009
+**********    Running load-course.sql, showing added rows:
+**********    Wed Aug 26 20:08:45 EDT 2009
+**********    Running load-student.sql, showing added rows:
+**********    Wed Aug 26 20:08:45 EDT 2009
+**********    Running load-prof.sql, showing added rows:
+**********    Wed Aug 26 20:08:45 EDT 2009
+**********    Running load-offering.sql, showing added rows:
+**********    Wed Aug 26 20:08:45 EDT 2009
+**********    Running load-registration.sql, showing added rows:
+**********    Wed Aug 26 20:08:45 EDT 2009
+**********    Moving raw/* to processed
+**********    Wed Aug 26 20:08:45 EDT 2009
+**********    Cleaning out phase1/*
+**********    Wed Aug 26 20:08:45 EDT 2009
+**********    Cleaning out phase2/*

@@ -1,0 +1,65 @@
+**********    Sun Dec 5 13:29:43 EST 2010
+**********    Running raw to phase 1 conversion
+Processing 2010 (FA)
+Extracting page 1 from FA-2010.pdf
+Extracting page 2 from FA-2010.pdf
+Extracting page 3 from FA-2010.pdf
+Extracting page 4 from FA-2010.pdf
+Extracting page 5 from FA-2010.pdf
+Extracting page 6 from FA-2010.pdf
+Extracting page 7 from FA-2010.pdf
+Extracting page 8 from FA-2010.pdf
+Extracting page 9 from FA-2010.pdf
+Extracting page 10 from FA-2010.pdf
+Extracting page 11 from FA-2010.pdf
+Extracting page 12 from FA-2010.pdf
+Extracting page 13 from FA-2010.pdf
+Extracting page 14 from FA-2010.pdf
+Extracting page 15 from FA-2010.pdf
+Extracting page 16 from FA-2010.pdf
+Extracting page 17 from FA-2010.pdf
+Extracting page 18 from FA-2010.pdf
+Extracting page 19 from FA-2010.pdf
+Extracting page 20 from FA-2010.pdf
+Extracting page 21 from FA-2010.pdf
+**********    Sun Dec 5 13:29:43 EST 2010
+**********    Running phase1 to phase 2 conversion
+Processing 2010-FA-0678.txt... MATH100-01(0678) INT_BASIC_MATH_SK [Stern_L]
+Processing 2010-FA-0679.txt... MATH100-02(0678) INT_BASIC_MATH_SK [Ben_Zid_M]
+Processing 2010-FA-0680.txt... MATH100-03(0679) INT_BASIC_MATH_SK [Kola_B]
+Processing 2010-FA-0681.txt... MATH100-04(0680) INT_BASIC_MATH_SK [Ben_Zid_M]
+Processing 2010-FA-0686.txt... MATH103-01(0681) MODERN_MATH_I [Mandelbaum_H]
+Processing 2010-FA-0687.txt... MATH103-02(0686) MODERN_MATH_I [Green_E]
+Processing 2010-FA-0688.txt... MATH103-03(0687) MODERN_MATH_I [Green_E]
+Processing 2010-FA-0689.txt... MATH103-04(0688) MODERN_MATH_I [Ben_Zid_M]
+Processing 2010-FA-0690.txt... MATH103-05(0689) MODERN_MATH_I [Vanwagenen_L]
+Processing 2010-FA-0691.txt... MATH103-06(0690) MODERN_MATH_I [Toplan_S]
+Processing 2010-FA-0692.txt... MATH103-07(0691) MODERN_MATH_I [Pina_J]
+Processing 2010-FA-0693.txt... MATH103-08(0692) MODERN_MATH_I [Baruch_S]
+Processing 2010-FA-0694.txt... MATH103-09(0693) MODERN_MATH_I [Pina_J]
+Processing 2010-FA-1490.txt... MATH103-10(0694) MODERN_MATH_I [SACKEYFIO_S]
+Processing 2010-FA-1491.txt... MATH103-11(1490) MODERN_MATH_I [Pina_J]
+Processing 2010-FA-1492.txt... MATH103-13(1491) MODERN_MATH_I [SACKEYFIO_S]
+Processing 2010-FA-2478.txt... MATH103-12(1492) MODERN_MATH_I [Green_E]
+Processing 2010-FA-3571.txt... MATH100-50(2478) INT_BASIC_MATH_SK [Kalmus_M]
+Processing 2010-FA-3572.txt... MATH100-51(3571) INT_BASIC_MATH_SK [Kalmus_M]
+Processing 2010-FA-3584.txt... MATH100-52(3572) INT_BASIC_MATH_SK [Kalmus_M]
+Processing 2010-FA-3585.txt... MATH100-53(3584) INT_BASIC_MATH_SK [Hersh_H]
+**********    Sun Dec 5 13:29:44 EST 2010
+**********    Running load-temp.sql, showing added rows:
+**********    Sun Dec 5 13:29:44 EST 2010
+**********    Running load-course.sql, showing added rows:
+**********    Sun Dec 5 13:29:44 EST 2010
+**********    Running load-student.sql, showing added rows:
+**********    Sun Dec 5 13:29:44 EST 2010
+**********    Running load-prof.sql, showing added rows:
+**********    Sun Dec 5 13:29:44 EST 2010
+**********    Running load-offering.sql, showing added rows:
+**********    Sun Dec 5 13:29:44 EST 2010
+**********    Running load-registration.sql, showing added rows:
+**********    Sun Dec 5 13:29:44 EST 2010
+**********    Moving raw/* to processed
+**********    Sun Dec 5 13:29:44 EST 2010
+**********    Cleaning out phase1/*
+**********    Sun Dec 5 13:29:44 EST 2010
+**********    Cleaning out phase2/*

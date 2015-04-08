@@ -1,0 +1,22 @@
+**********    Thu Apr 28 14:01:07 EDT 2011
+**********    Running raw to phase 1 conversion
+**********    Thu Apr 28 14:01:07 EDT 2011
+**********    Running phase1 to phase 2 conversion
+**********    Thu Apr 28 14:01:07 EDT 2011
+**********    Running load-temp.sql, showing added rows:
+**********    Thu Apr 28 14:01:07 EDT 2011
+**********    Running load-course.sql, showing added rows:
+**********    Thu Apr 28 14:01:07 EDT 2011
+**********    Running load-student.sql, showing added rows:
+**********    Thu Apr 28 14:01:07 EDT 2011
+**********    Running load-prof.sql, showing added rows:
+**********    Thu Apr 28 14:01:07 EDT 2011
+**********    Running load-offering.sql, showing added rows:
+**********    Thu Apr 28 14:01:07 EDT 2011
+**********    Running load-registration.sql, showing added rows:
+**********    Thu Apr 28 14:01:07 EDT 2011
+**********    Moving raw/* to processed
+**********    Thu Apr 28 14:01:07 EDT 2011
+**********    Cleaning out phase1/*
+**********    Thu Apr 28 14:01:07 EDT 2011
+**********    Cleaning out phase2/*

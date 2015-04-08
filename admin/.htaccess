@@ -1,0 +1,9 @@
+AuthUserFile /var/www/passwd
+Require user admin
+AuthGroupFile /dev/null
+AuthName "CASPER ADMINISTRATION"
+AuthType Basic
+
+<Limit GET POST>
+require valid-user
+</Limit>
